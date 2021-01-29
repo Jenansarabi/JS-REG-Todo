@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+     <title>JavaScript1</title>
+   </head>
+   <body>
+  
+    
+    <div class="container">
+      <nav class="navbar navbar-light justify-content-center  mb-3">
+         <span class="navbar-brand mb-0 h1">Registeration</span>
+      </nav>
+    
+      <form id="REG">
+         <div class="row ">
+            <div class="form-box col-md-6 mt-3">
+              <span class="FirstName">First Name</span>
+              <input type="text" id="FirstName" class="form-control" placeholder="First Name" >
+              <div class="invalid-feedback" id="error1">
+                Enter your First name
+              </div>
+            </div> 
+    
+              <div class="form-box col-md-6 mt-3">
+                <span class="name">Last Name</span>
+                 <input type="text" id="LastName" class="form-control" placeholder="Last Name" >
+                   <div class="invalid-feedback" id="error2">
+                      Enter your Last name
+                   </div>
+              </div>  
+            
+              <div class="form-box col-md-12 mt-4">
+                <span class="content">Email</span>
+                  <input type="email" id="email" class="form-control" placeholder="Email" >
+                  <div class="invalid-feedback "  id="error3">
+                    Enter your Email
+                   </div>
+              </div>
+              <div class="reg-btn py-3 mt-3 d-flex justify-content-center">
+                <button id="btnSubmit" class="btn btn-dark " > Register Here </button>
+              </div>
+        </div>        
+      </form>
+    </div>    
+
+      <div class="container">
+          <div id="add" class="mt-5">
+            <div id="reg_user" class="user">
+              <span id="reg_span">
+                  <div class="text">
+                    <h4>FirstName LastName
+                      <small>email@mail.com</small>
+                    </h4>
+                  </div>
+                  <button id="edit" class="btn btn-dark">Edit</button>
+                  <button id="delete" class="btn btn-danger">Delete</button>
+              </span>
+            </div>
+        </div>
+      </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+  

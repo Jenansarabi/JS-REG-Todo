@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    height: 100%;
+    background-color: rgba(8, 8, 8, 0.918);
+
+}
+ 
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    margin-top: 1rem 0 3rem;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.liststyle{
+    font-weight: 800;
+    color: rgba(255, 152, 216, 0.781);
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.list  #input{
+    padding: 0.5rem 1rem;
+    height: 3rem;
+    outline: none;
+    background-color:white;
+    width: 20rem;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 2rem;
+    border-color: rgba(255, 0, 200, 0.788);
+}
+
+.addButton{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 4rem;
+    outline: none;
+    color: black;
+    margin: 1.25rem;
+    background-color: rgba(245, 241, 244, 0.986);
+    cursor: pointer;
+
+}
+.addButton:hover{
+    opacity: 0,7;
+}
+
+
+.card{
+    background: none;
+    color: white;
+    outline: none;
+    border: 1px solid;
+    border-radius: 4rem; 
+
+}
+.task{
+    background: none;
+    color:white;
+    outline: none;
+    font-size: 1.2rem;
+    margin: 1.5rem;
+    justify-content: space-around;
+    
+    
+   
+}
+
+.completed h3{
+    text-decoration: line-through;
+    color: #f8b3e9f3;
+  }

@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    background:linear-gradient(1.25turn ,hsla(187, 91%, 25%, 0.63),#ff553355, #ebf8e1);
+    background-size: cover;
+}
+ 
+
+.reg-btn{
+    border-radius: 1rem;
+}
+
+.user ,.row {
+    padding: 1.5rem;
+    box-shadow: 5px 5px 10px 0 rgba(95, 3, 3, 0.534);
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    display: inline-table;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
